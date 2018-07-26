@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body style="background-color: #ebebeb;">
+<div class="pb-85">
+   <h1 class="t-blue que-title">一站式服务中心服务质量调查?</h1>
+    <div class="ques-con bg-white">
+        <h2 class="ques-s-title bb">1、一站式服务中心是否迅速？</h2>
+
+        <p class="que-select"><span id="xuan" class="s1"><img src="images/radio-yes.png" alt="" id="dianji">好</span></p>
+        <p class="que-select"><span id="xuan2" class="s1"><img src="images/radio-no.png" alt="" id="dianji2">不好</span></p>
+        <p class="que-select"><span id="xuan3" class="s1"><img src="images/radio-no.png" alt="" id="dianji3">一般</span></p>
+        <p class="que-select"><span id="xuan4" class="s1"><img src="images/radio-no.png" alt="" id="dianji4">不及时</span></p>
+
+    </div>
+    <script>
+
+        var a=true;
+        var b=document.getElementById("xuan");//点击的按钮
+        var c=document.getElementById("dianji");//图片标签
+        var d=document.getElementById("xuan2");//点击的按钮
+        var e=document.getElementById("dianji2");//图片标签
+        var f=document.getElementById("xuan3");//点击的按钮
+        var g=document.getElementById("dianji3");//图片标签
+        var h=document.getElementById("xuan4");//点击的按钮
+        var i=document.getElementById("dianji4");//图片标签
+        b.onclick=function(){
+            if(a){c.setAttribute('src','images/radio-yes.png');
+                e.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{c.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        d.onclick=function(){
+            if(a){e.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{e.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        f.onclick=function(){
+            if(a){g.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                e.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{g.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        i.onclick=function(){
+            if(a){i.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                e.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{i.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        }
+
+    </script>
+    <div class="ques-con bg-white">
+        <h2 class="ques-s-title bb">1、一站式服务中心是否迅速？</h2>
+
+        <p class="que-select"><span id="xuanA" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiA">好</span></p>
+        <p class="que-select"><span id="xuan2A" class="s1"><img src="images/radio-no.png" alt="" id="dianji2A">不好</span></p>
+        <p class="que-select"><span id="xuan3A" class="s1"><img src="images/radio-no.png" alt="" id="dianji3A">一般</span></p>
+        <p class="que-select"><span id="xuan4A" class="s1"><img src="images/radio-no.png" alt="" id="dianji4A">不及时</span></p>
+
+    </div>
+    <div class="text-c">
+        <a href="" class="btn mb20" style="margin-top: 0;width: 7.81rem">提交</a>
+    </div>
+</div>
+<footer class="foot-nav">
+    <a href="index.html" class="nav-index ">
+        <b></b>
+        <span>首页</span>
+    </a>
+    <a href="投诉建议.html" class="nav-class">
+        <b></b>
+        <span>投诉建议</span>
+    </a>
+    <a href="调查问卷.html" class="nav-lect act-nav">
+        <b></b>
+        <span>问卷调查</span>
+    </a>
+    <a href="个人中心-订单.html" class="nav-my ">
+        <b></b>
+        <span>我的</span>
+    </a>
+</footer>
+<script>
+
+    var a=true;
+    var bA=document.getElementById("xuanA");//点击的按钮
+    var cA=document.getElementById("dianjiA");//图片标签
+    var dA=document.getElementById("xuan2A");//点击的按钮
+    var eA=document.getElementById("dianji2A");//图片标签
+    var fA=document.getElementById("xuan3A");//点击的按钮
+    var gA=document.getElementById("dianji3A");//图片标签
+    var hA=document.getElementById("xuan4A");//点击的按钮
+    var iA=document.getElementById("dianji4A");//图片标签
+    bA.onclick=function(){
+        if(a){cA.setAttribute('src','images/radio-yes.png');
+            eA.setAttribute("src","images/radio-no.png");
+            gA.setAttribute("src","images/radio-no.png");
+            iA.setAttribute("src","images/radio-no.png");
+
+            a=false;}
+        else{cA.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    };
+    dA.onclick=function(){
+        if(a){eA.setAttribute('src','images/radio-yes.png');
+            cA.setAttribute("src","images/radio-no.png");
+            gA.setAttribute("src","images/radio-no.png");
+            iA.setAttribute("src","images/radio-no.png");
+            a=false;}
+        else{eA.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    };
+    fA.onclick=function(){
+        if(a){gA.setAttribute('src','images/radio-yes.png');
+            cA.setAttribute("src","images/radio-no.png");
+            eA.setAttribute("src","images/radio-no.png");
+            iA.setAttribute("src","images/radio-no.png");
+            a=false;}
+        else{gA.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    };
+    iA.onclick=function(){
+        if(a){iA.setAttribute('src','images/radio-yes.png');
+            cA.setAttribute("src","images/radio-no.png");
+            eA.setAttribute("src","images/radio-no.png");
+            gA.setAttribute("src","images/radio-no.png");
+            a=false;}
+        else{iA.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    }
+
+</script>
+</body>
+</html>

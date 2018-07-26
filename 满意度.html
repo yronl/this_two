@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body style="background-color: #ebebeb;">
+<div class="">
+    <div class="banner-ques banner-manyi">
+    </div>
+    <div class="manyi-con p30 bg-white">
+        <p>服务内容：<em>报修服务</em></p>
+        <p>企业名称：<em>株洲市明勇商贸有限公司</em></p>
+        <p>服务机构：<em>中国动力谷自主创新园物</em></p>
+        <p>时<u style="visibility: hidden">时间</u>间：<em>报修服务</em></p>
+
+    </div>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+            <h2 class="ques-s-title bb">1、本次服务的满意程度？</h2>
+            <p class="que-select"><span id="xuan" class="s1"><img src="images/radio-yes.png" alt="" id="dianji">10</span></p>
+            <p class="que-select"><span id="xuan2" class="s1"><img src="images/radio-no.png" alt="" id="dianji2">7</span></p>
+            <p class="que-select"><span id="xuan3" class="s1"><img src="images/radio-no.png" alt="" id="dianji3">5</span></p>
+            <p class="que-select"><span id="xuan4" class="s1"><img src="images/radio-no.png" alt="" id="dianji4">2</span></p>
+
+        </div>
+    </div>
+    <script>
+
+        var a=true;
+        var b=document.getElementById("xuan");//点击的按钮
+        var c=document.getElementById("dianji");//图片标签
+        var d=document.getElementById("xuan2");//点击的按钮
+        var e=document.getElementById("dianji2");//图片标签
+        var f=document.getElementById("xuan3");//点击的按钮
+        var g=document.getElementById("dianji3");//图片标签
+        var h=document.getElementById("xuan4");//点击的按钮
+        var i=document.getElementById("dianji4");//图片标签
+        b.onclick=function(){
+            if(a){c.setAttribute('src','images/radio-yes.png');
+                e.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{c.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        d.onclick=function(){
+            if(a){e.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{e.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        f.onclick=function(){
+            if(a){g.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                e.setAttribute("src","images/radio-no.png");
+                i.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{g.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        i.onclick=function(){
+            if(a){i.setAttribute('src','images/radio-yes.png');
+                c.setAttribute("src","images/radio-no.png");
+                e.setAttribute("src","images/radio-no.png");
+                g.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{i.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        }
+
+    </script>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+        <h2 class="ques-s-title bb">2、前台接待（B）</h2>
+
+        <p class="que-select"><span id="xuanA" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiA">10</span></p>
+        <p class="que-select"><span id="xuan2A" class="s1"><img src="images/radio-no.png" alt="" id="dianji2A">7</span></p>
+        <p class="que-select"><span id="xuan3A" class="s1"><img src="images/radio-no.png" alt="" id="dianji3A">5</span></p>
+        <p class="que-select"><span id="xuan4A" class="s1"><img src="images/radio-no.png" alt="" id="dianji4A">2</span></p>
+
+    </div>
+    </div>
+    <script>
+        var a=true;
+        var bA=document.getElementById("xuanA");//点击的按钮
+        var cA=document.getElementById("dianjiA");//图片标签
+        var dA=document.getElementById("xuan2A");//点击的按钮
+        var eA=document.getElementById("dianji2A");//图片标签
+        var fA=document.getElementById("xuan3A");//点击的按钮
+        var gA=document.getElementById("dianji3A");//图片标签
+        var hA=document.getElementById("xuan4A");//点击的按钮
+        var iA=document.getElementById("dianji4A");//图片标签
+        bA.onclick=function(){
+            if(a){cA.setAttribute('src','images/radio-yes.png');
+                eA.setAttribute("src","images/radio-no.png");
+                gA.setAttribute("src","images/radio-no.png");
+                iA.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{cA.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        dA.onclick=function(){
+            if(a){eA.setAttribute('src','images/radio-yes.png');
+                cA.setAttribute("src","images/radio-no.png");
+                gA.setAttribute("src","images/radio-no.png");
+                iA.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{eA.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        fA.onclick=function(){
+            if(a){gA.setAttribute('src','images/radio-yes.png');
+                cA.setAttribute("src","images/radio-no.png");
+                eA.setAttribute("src","images/radio-no.png");
+                iA.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{gA.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        iA.onclick=function(){
+            if(a){iA.setAttribute('src','images/radio-yes.png');
+                cA.setAttribute("src","images/radio-no.png");
+                eA.setAttribute("src","images/radio-no.png");
+                gA.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{iA.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        }
+    </script>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+            <h2 class="ques-s-title bb">3、服务机构的及时性（C1）</h2>
+
+            <p class="que-select"><span id="xuanB" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiB">10</span></p>
+            <p class="que-select"><span id="xuan2B" class="s1"><img src="images/radio-no.png" alt="" id="dianji2B">7</span></p>
+            <p class="que-select"><span id="xuan3B" class="s1"><img src="images/radio-no.png" alt="" id="dianji3B">5</span></p>
+            <p class="que-select"><span id="xuan4B" class="s1"><img src="images/radio-no.png" alt="" id="dianji4B">2</span></p>
+
+        </div>
+    </div>
+    <script>
+        var a=true;
+        var bB=document.getElementById("xuanB");//点击的按钮
+        var cB=document.getElementById("dianjiB");//图片标签
+        var dB=document.getElementById("xuan2B");//点击的按钮
+        var eB=document.getElementById("dianji2B");//图片标签
+        var fB=document.getElementById("xuan3B");//点击的按钮
+        var gB=document.getElementById("dianji3B");//图片标签
+        var hB=document.getElementById("xuan4B");//点击的按钮
+        var iB=document.getElementById("dianji4B");//图片标签
+        bB.onclick=function(){
+            if(a){cB.setAttribute('src','images/radio-yes.png');
+                eB.setAttribute("src","images/radio-no.png");
+                gB.setAttribute("src","images/radio-no.png");
+                iB.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{cB.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        dB.onclick=function(){
+            if(a){eB.setAttribute('src','images/radio-yes.png');
+                cB.setAttribute("src","images/radio-no.png");
+                gB.setAttribute("src","images/radio-no.png");
+                iB.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{eB.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        fB.onclick=function(){
+            if(a){gB.setAttribute('src','images/radio-yes.png');
+                cB.setAttribute("src","images/radio-no.png");
+                eB.setAttribute("src","images/radio-no.png");
+                iB.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{gB.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        iB.onclick=function(){
+            if(a){iB.setAttribute('src','images/radio-yes.png');
+                cB.setAttribute("src","images/radio-no.png");
+                eB.setAttribute("src","images/radio-no.png");
+                gB.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{iB.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        }
+    </script>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+            <h2 class="ques-s-title bb">4、服务机构的专业能力（C2）</h2>
+
+            <p class="que-select"><span id="xuanC" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiC">10</span></p>
+            <p class="que-select"><span id="xuan2C" class="s1"><img src="images/radio-no.png" alt="" id="dianji2C">7</span></p>
+            <p class="que-select"><span id="xuan3C" class="s1"><img src="images/radio-no.png" alt="" id="dianji3C">5</span></p>
+            <p class="que-select"><span id="xuan4C" class="s1"><img src="images/radio-no.png" alt="" id="dianji4C">2</span></p>
+
+        </div>
+    </div>
+    <script>
+        var a=true;
+        var bC=document.getElementById("xuanC");//点击的按钮
+        var cC=document.getElementById("dianjiC");//图片标签
+        var dC=document.getElementById("xuan2C");//点击的按钮
+        var eC=document.getElementById("dianji2C");//图片标签
+        var fC=document.getElementById("xuan3C");//点击的按钮
+        var gC=document.getElementById("dianji3C");//图片标签
+        var hC=document.getElementById("xuan4C");//点击的按钮
+        var iC=document.getElementById("dianji4C");//图片标签
+        bC.onclick=function(){
+            if(a){cC.setAttribute('src','images/radio-yes.png');
+                eC.setAttribute("src","images/radio-no.png");
+                gC.setAttribute("src","images/radio-no.png");
+                iC.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{cC.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        dC.onclick=function(){
+            if(a){eC.setAttribute('src','images/radio-yes.png');
+                cC.setAttribute("src","images/radio-no.png");
+                gC.setAttribute("src","images/radio-no.png");
+                iC.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{eC.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        fC.onclick=function(){
+            if(a){gC.setAttribute('src','images/radio-yes.png');
+                cC.setAttribute("src","images/radio-no.png");
+                eC.setAttribute("src","images/radio-no.png");
+                iC.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{gC.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        iC.onclick=function(){
+            if(a){iC.setAttribute('src','images/radio-yes.png');
+                cC.setAttribute("src","images/radio-no.png");
+                eC.setAttribute("src","images/radio-no.png");
+                gC.setAttribute("src","images/radio-no.png");
+                a=false;}
+            else{iC.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        }
+    </script>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+            <h2 class="ques-s-title bb">5、本次服务是否有偿服务</h2>
+
+            <p class="que-select"><span id="xuanD" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiD">是</span></p>
+            <p class="que-select"><span id="xuan2D" class="s1"><img src="images/radio-no.png" alt="" id="dianji2D">否</span></p>
+
+
+        </div>
+    </div>
+    <script>
+        var a=true;
+        var bD=document.getElementById("xuanD");//点击的按钮
+        var cD=document.getElementById("dianjiD");//图片标签
+        var dD=document.getElementById("xuan2D");//点击的按钮
+        var eD=document.getElementById("dianji2D");//图片标签
+
+        bD.onclick=function(){
+            if(a){cD.setAttribute('src','images/radio-yes.png');
+                eD.setAttribute("src","images/radio-no.png");
+//
+
+                a=false;}
+            else{cD.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        dD.onclick=function(){
+            if(a){eD.setAttribute('src','images/radio-yes.png');
+                cD.setAttribute("src","images/radio-no.png");
+//
+                a=false;}
+            else{eD.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+
+    </script>
+    <div class="tb20">
+        <div class="ques-con bg-white">
+            <h2 class="ques-s-title bb">6、本次服务费用评价</h2>
+
+            <p class="que-select"><span id="xuanE" class="s1"><img src="images/radio-yes.png" alt="" id="dianjiE">比市场价高</span></p>
+            <p class="que-select"><span id="xuan2E" class="s1"><img src="images/radio-no.png" alt="" id="dianji2E">和市场价一样</span></p>
+            <p class="que-select"><span id="xuan3E" class="s1"><img src="images/radio-no.png" alt="" id="dianji3E">比市场价低</span></p>
+
+
+        </div>
+    </div>
+    <script>
+        var a=true;
+        var bE=document.getElementById("xuanE");//点击的按钮
+        var cE=document.getElementById("dianjiE");//图片标签
+        var dE=document.getElementById("xuan2E");//点击的按钮
+        var eE=document.getElementById("dianji2E");//图片标签
+        var fE=document.getElementById("xuan3E");//点击的按钮
+        var gE=document.getElementById("dianji3E");//图片标签
+
+        bE.onclick=function(){
+            if(a){cE.setAttribute('src','images/radio-yes.png');
+                eE.setAttribute("src","images/radio-no.png");
+                gE.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{cE.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        dE.onclick=function(){
+            if(a){eE.setAttribute('src','images/radio-yes.png');
+                cE.setAttribute("src","images/radio-no.png");
+                gE.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{eC.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+        fE.onclick=function(){
+            if(a){gE.setAttribute('src','images/radio-yes.png');
+                cE.setAttribute("src","images/radio-no.png");
+                eE.setAttribute("src","images/radio-no.png");
+
+                a=false;}
+            else{gE.setAttribute('src','images/radio-no.png');
+
+                a=true;}
+
+        };
+
+    </script>
+    <div class="m30 manyi-p">
+        <p>客户满意度评判标准为：<br>
+            9≤评分≤10分为优秀；7≤评分＜9分为良好、5≤评分＜7分为一
+            般，5分以下为差。
+        </p>
+        <p>计算规则：<br>
+            客户满意度考核得分=A*25%+B*25%+C1*25%+C2*25%.</p>
+    </div>
+    <div class="text-c">
+        <a href="" class="btn mb20" style="margin-top: 0;width: 7.81rem">提交</a>
+    </div>
+</div>
+<div class="popup text-c" style="display: none">
+    <img src="images/popup-img.png" alt="" class="popup-img">
+    <p>评价成功</p>
+</div>
+</body>
+</html>

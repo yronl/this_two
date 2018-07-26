@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body>
+<div class="my-banner banner-bx"></div>
+<div class="bx-nav clearfix text-c">
+    <div class="hover-o clearfix" id="bx-nav1">
+        <a class="bb ">
+            <p class="t-3" id="t-color">报修申请</p>
+        </a>
+
+    </div>
+    <div class="hover-n clearfix" id="bx-nav2">
+        <a class="bb">
+            <p class="" id="t-color1">报修流程</p>
+        </a>
+    </div>
+</div>
+<div class="bx-con" style="display: block" id="bx-con1">
+    <div class="order">
+    <p class="get-pos">所属园区 <em class="t-red">*</em>
+        <b class="select-i bx-i"></b>
+        <select name="" id="" class="" >
+            <option value="">请选择</option>
+            <option value="">园创</option>
+            <option value="">请选择</option>
+            <option value="">请选择</option>
+        </select>
+    </p>
+    <p>维修地址 <em class="t-red">*</em> <input type="text" placeholder="请输入维修地址" class="bb2"></p>
+    <p>报修人 <em class="t-red">*</em> <input type="text" placeholder="请输入报修人"></p>
+    <p>联系电话 <em class="t-red">*</em> <input type="text" placeholder="请输入联系电话"></p>
+    <p>维修部位 <em class="t-red">*</em> <input type="text" placeholder="请输入维修部位"></p>
+    <p style="padding-bottom: 0">故障描述 <em class="t-red">*</em> <textarea name="" id="" placeholder="故障描述..."></textarea>
+</div>
+    <div class="text-c pb20">
+        <a href="" class="btn" style="letter-spacing:normal;margin-top: 0">提交</a>
+    </div>
+</div>
+<div class="bx-con" style="display: none" id="bx-con2">
+     <div class="bx-step">
+        <div class="t-blue">1.客户提出报修申请</div>
+         <div class="t-blue">2.物业公司工程部现场查看
+             <p>
+                 a、如果在维修范围内，则向客户反馈维修，直至维修完成。<br>
+                 b、如果在维修范围外，则向客户出具有偿服务价格，客户接收则物业
+                 公司工程部完成维修，如果客户不接受则客户另请人维修。
+             </p>
+         </div>
+
+     </div>
+</div>
+<div class="popup text-c" style="display: none">
+    <img src="images/popup-img.png" alt="" class="popup-img">
+    <p>申请提交成功！</p>
+</div>
+<script>
+    var a = document.getElementById("bx-nav1");
+    var b = document.getElementById("bx-nav2");
+    var c = document.getElementById("bx-con1");
+    var d = document.getElementById("bx-con2");
+
+    var e=true;
+    var tColor=document.getElementById("t-color");
+    var tColor1=document.getElementById("t-color1");
+
+    a.onclick=function(){
+        c.style.display="block";
+        tColor.setAttribute("class","t-3");
+        tColor1.setAttribute("class","");
+        d.style.display="none";
+        b.setAttribute("class","hover-n");
+        a.setAttribute("class","hover-o");
+    };
+    b.onclick=function(){
+        d.style.display="block";
+        tColor1.setAttribute("class","t-3");
+        tColor.setAttribute("class","");
+        b.setAttribute("class","hover-o");
+        a.setAttribute("class","hover-n");
+        c.style.display="none";
+    }
+
+</script>
+</body>
+</html><SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

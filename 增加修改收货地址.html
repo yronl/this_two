@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body style="background-color: #ebebeb;">
+<div class="pb20" style="padding-top: 0.47rem">
+    <ul class="up-address bg-white">
+        <li class="bb">
+            收货人 <input type="text" class="fr" value="张大大" >
+        </li>
+        <li class="bb">
+            联系电话 <input type="text" class="fr" value="12345678911" >
+        </li>
+        <li class="bb">
+            所在地区 <input type="text" class="fr" value="中国动力谷D区B座">
+        </li>
+
+    </ul>
+    <textarea name="" class="xxdd bb" placeholder="请填写详细地址"></textarea>
+</div>
+<div class="bg-white moren" onclick="address1()">
+    <img src="images/address-ok.png" alt="" class="address-btn" id="ok" >是否默认收货地址
+</div>
+<div class="m30">
+<a href="" class="address-btn keep">保 存</a>
+</div>
+<script>
+    var ok=document.getElementById("ok");
+    var a=true;
+     function address1(){
+    if(a){
+        ok.setAttribute("src","images/address-ok.png");
+        a=false;
+    }else{
+        ok.setAttribute("src","images/address.png");
+        a=true;
+    }}
+</script>
+</body>
+</html>

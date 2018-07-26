@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body>
+<div class="my-banner banner-fy"></div>
+<div class="card-con bg-white">
+    <h2 class="con-title t-blod">费用缴纳</h2>
+    <div class="m30" style="margin-bottom:0">
+        <p class="t-blue con-s-title pb10">1.绑定自己的园区账号</p>
+        <p class="con-p">
+            a、随时随地查询到自己每个月最新的租金、物业费及水电费详情，并支持在线缴费。
+        </p>
+        <p class="con-p">
+            b、负责园区所有区域物业费的收取。
+        </p>
+    </div>
+</div>
+<div class="card-con top-line bg-white">
+    <h2 class="con-title t-blod">水电查询</h2>
+    <div class="card-num lou">
+        <p>楼房号<em class="t-red">*</em>
+            <select name="" id="" class="" >
+                <option value="">请选择</option>
+                <option value="">2栋</option>
+                <option value="">教育服务</option>
+                <option value="">服务</option>
+            </select></p>
+        <p>房间号<em class="t-red">*</em><input type="text" placeholder="请输入房间号"></p>
+        <a href="#" class="btn ">查询</a>
+    </div>
+</div>
+<!--查询结果-->
+<div class="query" style="display: none">
+    <h2 class="con-title t-blod">查询结果</h2>
+    <div class="query-bg">
+        <p>房间信息：<span>2-306</span></p>
+        <p>剩余电量：<span>36.26（度）</span></p>
+        <p>充值电费：<input type="text" class="dian-inp">元</p>
+        <p>
+            缴费方式：
+                <input  type="radio" name="Question1" value="boy"/>一卡通
+                <input  type="radio" name="Question1" value="girl"/>微信支付
+        </p>
+        <div class="text-c">
+            <a href="#" class="btn ">缴费</a>
+        </div>
+
+    </div>
+
+</div>
+<!--一卡通缴费-->
+<div class="popup-card" style="display: none">
+    <div class="popup-jf">
+        <a href="" class="fr"><img src="images/close.png" alt="" class="close-card"></a>
+        <p class="jf-p"><span>一卡通缴费</span></p>
+
+        <div class="jf-ca">
+            <p>卡 号：<input type="text" placeholder="请输入卡号"></p>
+            <p>密 码：<input type="password" placeholder="请输入密码"></p>
+            <a href="" class="btn jf-btn">确定</a>
+        </div>
+    </div>
+</div>
+<!--缴费成功-->
+<div class="popup-card" style="display: none">
+    <div class="jf-ok">
+         <p><img src="images/jf-ok.png" alt="" class="">缴费成功！</p>
+        <a href="" class="ok-btn">确定</a>
+    </div>
+</div>
+<!--缴费失败-->
+<div class="popup-card" style="display: none">
+    <div class="jf-ok">
+        <p><img src="images/jf-no.png" alt="" class="">缴费失败！</p>
+        <a href="" class="ok-btn">确定</a>
+    </div>
+</div>
+</body>
+</html>

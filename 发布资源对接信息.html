@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+</head>
+<body>
+<div class="my-banner banner-select"></div>
+<div class="order">
+
+    <p class="duijie">信息类型 <em class="t-red">*</em>
+        <span id="xuan" class="s1"><img src="images/radio-yes.png" alt="" id="dianji">供应</span>
+        <span id="xuan2" class="s1"><img src="images/radio-no.png" alt="" id="dianji2">求购</span>
+    </p>
+    <p class="get-pos">资源图片 <em class="t-red">*</em> <input type="text" placeholder="" class="get-pos bg-gery">
+        <span class="get-yzm order-yzm">选择文件</span></p>
+    <p class="get-pos">所属分类 <em class="t-red">*</em>
+        <b class="select-i bx-i"></b>
+
+        <select name="" id="" class="" >
+            <option value="">信息服务</option>
+            <option value="">园创</option>
+            <option value="">教育服务</option>
+            <option value="">服务</option>
+        </select>
+
+    </p>
+    <p>价格(元) <em class="t-red">*</em> <input type="text" placeholder="请输入价格" class="bb2"></p>
+    <p>标题 <em class="t-red">*</em> <input type="text" placeholder="请输入标题"></p>
+    <p class="">所属地区 <em class="t-red">*</em>
+        <span class="get-pos inl-block">
+            <b class="select-i bx-i"></b>
+            <select name="" id="" class="select1" >
+                <option value="">株洲市</option>
+                <option value="">长沙</option>
+                <option value="">湘潭</option>
+                <option value="">服务</option>
+            </select>
+        </span>
+        <span class="get-pos inl-block">
+            <b class="select-i bx-i"></b>
+            <select name="" id="" class="select1" >
+                <option value="">天元区</option>
+                <option value="">石峰区</option>
+                <option value="">芦淞区</option>
+                <option value="">荷塘区</option>
+            </select>
+        </span>
+    </p>
+    <p class="get-pos">
+        <b class="select-i bx-i"></b>
+        <select name="" id="" class="" >
+            <option value="">硬质合金园</option>
+            <option value="">园创</option>
+            <option value="">请选择</option>
+            <option value="">请选择</option>
+        </select>
+    </p>
+    <p>联系人 <em class="t-red">*</em> <input type="text" placeholder="请输入联系人"></p>
+    <p>联系电话 <em class="t-red">*</em> <input type="text" placeholder="请输入联系人手机或电话"></p>
+
+    <p style="padding-bottom: 0">详情描述 <em class="t-red">*</em> <textarea name="" id="" placeholder="详情描述..."></textarea>
+</div>
+<div class="text-c">
+    <a href="" class="btn mb20" style="margin-top: 0;letter-spacing: normal">提交</a>
+</div>
+<div class="popup text-c" style="display: none">
+    <img src="images/popup-img.png" alt="" class="popup-img">
+    <p>申请提交成功</p>
+</div>
+<script>
+
+    var a=true;
+    var b=document.getElementById("xuan");//点击的按钮
+    var c=document.getElementById("dianji");//图片标签
+    var d=document.getElementById("xuan2");//点击的按钮
+    var e=document.getElementById("dianji2");//图片标签
+
+    b.onclick=function(){
+        if(a){c.setAttribute('src','images/radio-yes.png');
+            e.setAttribute("src","images/radio-no.png");
+            a=false;}
+        else{c.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    };
+    d.onclick=function(){
+        if(a){e.setAttribute('src','images/radio-yes.png');
+            c.setAttribute("src","images/radio-no.png");
+            a=false;}
+        else{e.setAttribute('src','images/radio-no.png');
+
+            a=true;}
+
+    }
+
+
+
+</script>
+</body>
+</html>

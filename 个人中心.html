@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="applicable-device" content="mobile">
+
+    <link rel="stylesheet" href="css/swiper.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <script src="js/auto.js"></script>
+
+</head>
+<body style="background-color: #ebebeb;">
+<div class="pb-85">
+    <div class="my-banner">
+       <div class="my-img">
+              <img src="images/my-tx-img.png" alt="">
+       </div>
+        <p class="tx-name">张大大</p>
+        <p class="my-money">余额 <span class="t-orange"> 800.36 </span> 元</p>
+        <a href="" class="recharge">充值</a>
+       
+    </div>
+    <div class="my-nav clearfix bg-white">
+        <div class="bb" onclick="diancard()">
+            <a class="hover-one" id="hover-card">
+                <p class="nav-one">一卡通</p>
+            </a>
+        </div>
+            <div class="bb" onclick="dian()">
+                <a class="hover" id="hover-one">
+                <p class="nav-one">订单</p>
+                </a>
+            </div>
+        <div class="bb" onclick="dianone()">
+            <a class="hover" id="hover">
+                <p class="nav-one">设置</p>
+            </a>
+        </div>
+        <div class="bb" onclick="diant()">
+            <a class="hover" id="hover1">
+                <p class="nav-one">提问</p>
+            </a>
+        </div>
+    </div>
+    <div class="my-con bg-white" id="my-con1" style="display: none">
+        <ul class="my-con-lis">
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon1.png" alt="">物业订单
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon2.png" alt="">机构订单
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon3.png" alt="">园创订单
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon4.png" alt="">政务直通
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon5.png" alt="">园创卡交易
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my-icon6.png" alt="">购物订单
+                </a>
+            </li>
+        </ul>
+        <ul class="my-con-lis  top-line">
+            <li class="next-rig">
+                <a href="">
+                    <img src="images/my-icon7.png" alt="">操作指南
+                </a>
+            </li>
+        </ul>
+        <ul class="my-con-lis  top-line">
+
+            <li>
+                <a href="">
+                    <img src="images/my-icon8.png" alt="">客服电话：400-6020109
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="my-con bg-white" id="my-con2">
+        <ul class="my-con-lis">
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my1-icon1.png" alt="">实名认证
+                </a>
+            </li>
+            <li class="next-rig bb">
+                <a href="">
+                    <img src="images/my1-icon2.png" alt="">修改密码
+                </a>
+            </li>
+            <li class="next-rig">
+                <a href="">
+                    <img src="images/my1-icon3.png" alt="">修改信息
+                </a>
+            </li>
+        </ul>
+        <ul class="my-con-lis top-line1">
+            <li>
+                <a href="">
+                   <span style="font-size: 0.43rem"> 退出登录</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="my-con my-con-n" id="my-con3" style="display: none">
+        <!-- Swiper -->
+        <div class="my-scroll">
+            <div class="swiper-container">
+            <div class="swiper-wrapper ">
+
+                    <div class="swiper-slide mar5">
+                    <div class="question-box m20">
+                        <div class="swiper-box">
+                            <div class="star"><span></span><span></span><span></span><span></span><span class="star-no"></span></div>
+                        </div>
+                        <h2 class="swi-name">小敏</h2>
+                        <p class="t-grey swi-p">物业疑难问题</p>
+                        <button class="que-btn">向他咨询</button>
+                    </div>
+
+                </div>
+
+
+                    <div class="swiper-slide mar5">
+                        <div class="question-box m20">
+                            <div class="swiper-box">
+                                <div class="star"><span></span><span></span><span></span><span></span><span class="star-no"></span></div>
+                            </div>
+                            <h2 class="swi-name">小敏</h2>
+                            <p class="t-grey swi-p">物业疑难问题</p>
+                            <button class="que-btn">向他咨询</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="swiper-slide mar5">
+                        <div class="question-box m20">
+                            <div class="swiper-box">
+                                <div class="star"><span></span><span></span><span></span><span></span><span class="star-no"></span></div>
+                            </div>
+                            <h2 class="swi-name">小敏</h2>
+                            <p class="t-grey swi-p">物业疑难问题</p>
+                            <button class="que-btn">向他咨询</button>
+                        </div>
+
+                    </div>
+
+
+            </div>
+            <!-- Add Scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        </div>
+        <div class="bg-white">
+         <div class="peo-question bb clearfix">
+             <div class="peo-question-left fl">
+                 <img src="images/peo-body.png" alt="">
+             </div>
+             <div class="peo-question-right fr">
+                   <h2>用户名 <span class="fr">2017-05-30&nbsp;16:12</span></h2>
+                   <p>我房子漏水怎么处理</p>
+             </div>
+
+         </div>
+            <div class="peo-question  clearfix">
+                <div class="peo-question-left fl">
+                    <img src="images/peo-girl.png" alt="">
+                </div>
+                <div class="peo-question-right fr">
+                    <h2>用户名 <span class="fr">2017-05-30&nbsp;16:12</span></h2>
+                    <p>我房子漏水怎么处理</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="my-con bg-white" id="my-con4">
+        <div class="card-con ">
+
+            <div class="text-c">
+                <div class="card-bg2">
+                    <ul class="hao-lis">
+                        <li>持卡人： <span>王璇限</span></li>
+                        <li>卡<b style="visibility: hidden">哈</b>号： <span>5266586332336632</span></li>
+                        <li>余<b style="visibility: hidden">哈</b>额： <span>100.2</span></li>
+                        <li>卡状态： <span>已激活</span> <a href="" class="unbind fr">解除绑定</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="my-con bg-white top-line pb10">
+            <ul class="my-con-lis">
+                <li class="next-rig bb">
+                    <a href="物业订单.html">
+                        <img src="images/card-recharge.png" alt="">充值
+                    </a>
+                </li>
+                <li class="next-rig bb">
+                    <a href="">
+                        <img src="images/card-jilu.png" alt="">充值记录
+                    </a>
+                </li>
+                <li class="next-rig bb">
+                    <a href="">
+                        <img src="images/card-xiaofei.png" alt="">消费记录
+                    </a>
+                </li>
+                <li class="next-rig bb">
+                    <a href="政务信息.html">
+                        <img src="images/card-guashi.png" alt="">挂失
+                    </a>
+                </li>
+                <li class="next-rig ">
+                    <a href="政务信息.html">
+                        <img src="images/gai-password.png" alt="">修改密码
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<footer class="foot-nav">
+    <a href="" class="nav-index">
+        <b></b>
+        <span>首页</span>
+    </a>
+    <a href="" class="nav-class">
+        <b></b>
+        <span>投诉建议</span>
+    </a>
+    <a href="" class="nav-lect">
+        <b></b>
+        <span>问卷调查</span>
+    </a>
+    <a href="" class="nav-my  act-nav">
+        <b></b>
+        <span>我的</span>
+    </a>
+</footer>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true
+    });
+</script>
+<script>
+
+        var nav1=document.getElementById("hover-one");
+        var nav2=document.getElementById("hover");
+        var nav3=document.getElementById("hover1");
+        var nav4=document.getElementById("hover-card");
+        var con1=document.getElementById("my-con1");
+        var con2=document.getElementById("my-con2");
+        var con3=document.getElementById("my-con3");
+        var con4=document.getElementById("my-con4");
+
+        function dian(){
+            con1.style.display ="block";
+            con2.style.display = "none";
+            con3.style.display = "none";
+            con4.style.display = "none";
+            nav1.setAttribute("class", "hover-one");
+            nav2.setAttribute("class","hover");
+            nav3.setAttribute("class","hover");
+            nav4.setAttribute("class","hover");
+        }
+        function dianone(){
+            con2.style.display ="block";
+            con1.style.display="none";
+            con3.style.display="none";
+            con4.style.display = "none";
+            nav2.setAttribute("class","hover-one");
+            nav1.setAttribute("class", "hover");
+            nav3.setAttribute("class", "hover");
+            nav4.setAttribute("class","hover");
+
+        }
+
+        function diant(){
+            con2.style.display ="none";
+            con1.style.display="none";
+            con3.style.display="block";
+            con4.style.display = "none";
+            nav3.setAttribute("class","hover-one");
+            nav1.setAttribute("class", "hover");
+            nav2.setAttribute("class", "hover");
+            nav4.setAttribute("class","hover");
+
+        }
+        function diancard(){
+            con2.style.display ="none";
+            con1.style.display="none";
+            con3.style.display="none";
+            con4.style.display = "block";
+            nav4.setAttribute("class","hover-one");
+            nav1.setAttribute("class", "hover");
+            nav2.setAttribute("class", "hover");
+            nav3.setAttribute("class","hover");
+
+        }
+</script>
+</body>
+</html>
